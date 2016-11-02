@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 on=true;
                 break;
             case R.id.btnCons:
-                Toast.makeText(this,"buenos dias! Consulta todos",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"buenos!! dias! Consulta todos",Toast.LENGTH_SHORT).show();
                 manejar = new ManejarServicios();
                 manejar.execute(GET,"2");
                 on=true;
