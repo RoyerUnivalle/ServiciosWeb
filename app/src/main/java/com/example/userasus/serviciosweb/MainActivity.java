@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
     Boolean on = false;
 
     ///urls
-    String IP="http://192.168.0.3/WebServicesAlumnos"; //DIRECCION BASE, EN ESTE CASO LOCAMENTE, PODRÌA SER UN SERVER
+    String IP="http://192.18.0.3/WebServicesAlumnos"; //DIRECCION BASE, EN ESTE CASO LOCAMENTE, PODRÌA SER UN SERVER
 
     String    GET=IP+"/obtener_alumnos.php"; // EN EL DOCUMENTO ROOT DEL HOST LOCAL/ ODRIA SER EL DOCUIMENT ROOT DEL SEVER EN WWW
     String GET_ID=IP+"/obtener_alumno_por_id.php";
